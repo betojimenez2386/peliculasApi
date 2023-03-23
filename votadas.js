@@ -1,4 +1,4 @@
-const url = "https://api.themoviedb.org/3/movie/popular?api_key=f81fa3c12f98c8ce35ced4ac660702b1&language=es-MX";
+const url = "https://api.themoviedb.org/3/movie/top_rated?api_key=f81fa3c12f98c8ce35ced4ac660702b1&language=es-MX";
 
 document.addEventListener("DOMContentLoaded",()=>{
     obtnerPeliculas();
@@ -38,6 +38,3 @@ document.addEventListener("DOMContentLoaded",()=>{
 } 
 
 } 
-
-
-
